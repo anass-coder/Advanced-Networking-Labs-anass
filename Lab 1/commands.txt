@@ -1,0 +1,47 @@
+#PC1 config
+ip addr del 10.0.0.1/8 dev PC1-eth0
+ip -6 addr del  fe80::d858:1ff:fe6c:18f6/64  dev PC1-eth0
+ip addr add 10.10.10.1/24 dev PC1-eth0
+ip -6 addr add fd24:ec43:12ca:c001:10::1/80 dev PC1-eth0
+
+
+#PC2 config
+
+ip addr del 10.0.0.2/8 dev PC2-eth0
+ip -6 addr del fe80::1c5d:9aff:fea7:4352/64 dev PC2-eth0
+ip addr add 10.10.20.2/24 dev PC2-eth0
+ip -6 addr add fd24:ec43:12ca:c001:20::2/80 dev PC2-eth0
+
+#PC3 config
+
+ip addr del 10.0.0.3/8 dev PC3-eth0
+ip -6 addr del fe80::a0dc:8eff:febe:eaa9/64  dev PC3-eth0
+ip addr add 10.10.30.3/24 dev PC3-eth0
+ip -6 addr add fd24:ec43:12ca:c001:30::3/80 dev PC3-eth0
+
+#PC4 config : write in a bash file and run it
+
+#!/bin/bash
+# === Configure network interfaces for PC4 ===
+
+# Clean up old addresses
+ip addr flush dev PC4-eth0
+ip addr flush dev PC4-eth1
+ip addr flush dev PC4-eth2
+
+# Assign IPv4 addresses
+ip addr add 10.10.10.4/24 dev PC4-eth0
+ip addr add 10.10.20.4/24 dev PC4-eth1
+ip addr add 10.10.30.4/24 dev PC4-eth2
+
+# Assign IPv6 addresses
+ip -6 addr add fd24:ec43:12ca:c001:10::4/80 dev PC4-eth0
+ip -6 addr add fd24:ec43:12ca:c001:20::4/80 dev PC4-eth1
+ip -6 addr add fd24:ec43:12ca:c001:30::4/80 dev PC4-eth2
+
+# Bring interfaces up
+ip link set PC4-eth0 up
+ip link set PC4-eth1 up
+ip link set PC4-eth2 up
+
+
