@@ -43,5 +43,9 @@ ip -6 addr add fd24:ec43:12ca:c001:30::4/80 dev PC4-eth2
 ip link set PC4-eth0 up
 ip link set PC4-eth1 up
 ip link set PC4-eth2 up
+#adding default gatway and enabling forwarding 
 
-
+ip route add default via 10.10.10.4
+ip -6 route add default via fd24:ec43:12ca:c001:10::4
+echo 1 > /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
