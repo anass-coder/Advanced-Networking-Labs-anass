@@ -1,15 +1,21 @@
 #!/usr/bin/python
 
+"""
+This example shows how to create a Mininet object and add nodes to it manually.
+"""
+"Importing Libraries"
 from mininet.net import Mininet
 from mininet.node import Controller
 from mininet.cli import CLI
 from mininet.log import setLogLevel, info
 
-def build_net():
-    net = Mininet(controller=Controller)
+"Function definition: This is called from the main function"
+def firstNetwork():
 
-    info('*** Adding controller\n')
-    net.addController('c0')
+    "Create an empty network and add nodes to it."
+    net = Mininet()
+    info( '*** Adding controller\n' )
+    net.addController( 'c0' )
 
     info('*** Adding hosts\n')
     PC1 = net.addHost('PC1')          # no IP here (set later)
@@ -33,26 +39,67 @@ def build_net():
     net.addLink(PC3, s34)   # PC3-eth0
     net.addLink(PC4, s34)   # PC4-eth2
 
-    info('*** Starting network\n')
+    
+    info( '*** Starting network\n')
     net.start()
 
-    # Optional: open xterms for each PC
-    info('*** Opening xterms\n')
-    PC1.cmd('xterm -T PC1 &')
-    PC2.cmd('xterm -T PC2 &')
-    PC3.cmd('xterm -T PC3 &')
-    PC4.cmd('xterm -T PC4 &')
+    "This is used to run commands on the hosts"
 
-    info('*** Drop into CLI\n')
-    CLI(net)
+    info( '*** Starting terminals on hosts\n' )
+    PC1.cmd(
+  'xterm '
+  '-xrm "XTerm.vt100.allowTitleOps: false" '
+  '-xrm "XTerm.vt100.selectToClipboard: true" '
+  '-xrm "XTerm.vt100.translations: #override '
+  'Ctrl Shift <Key>C: copy-selection(CLIPBOARD)\\n'
+  'Ctrl Shift <Key>V: insert-selection(CLIPBOARD)\\n'
+  'Shift <Key>Insert: insert-selection(CLIPBOARD)" '
+  '-T PC1 &'
+)
+    PC2.cmd(
+    'xterm '
+    '-xrm "XTerm.vt100.allowTitleOps: false" '
+    '-xrm "XTerm.vt100.selectToClipboard: true" '
+    '-xrm "XTerm.vt100.translations: #override '
+    'Ctrl Shift <Key>C: copy-selection(CLIPBOARD)\\n'
+    'Ctrl Shift <Key>V: insert-selection(CLIPBOARD)\\n'
+    'Shift <Key>Insert: insert-selection(CLIPBOARD)" '
+    '-T PC2 &'
+)
+    PC3.cmd(
+    'xterm '
+    '-xrm "XTerm.vt100.allowTitleOps: false" '
+    '-xrm "XTerm.vt100.selectToClipboard: true" '
+    '-xrm "XTerm.vt100.translations: #override '
+    'Ctrl Shift <Key>C: copy-selection(CLIPBOARD)\\n'
+    'Ctrl Shift <Key>V: insert-selection(CLIPBOARD)\\n'
+    'Shift <Key>Insert: insert-selection(CLIPBOARD)" '
+    '-T PC3 &'
+)
+    PC4.cmd(
+    'xterm '
+    '-xrm "XTerm.vt100.allowTitleOps: false" '
+    '-xrm "XTerm.vt100.selectToClipboard: true" '
+    '-xrm "XTerm.vt100.translations: #override '
+    'Ctrl Shift <Key>C: copy-selection(CLIPBOARD)\\n'
+    'Ctrl Shift <Key>V: insert-selection(CLIPBOARD)\\n'
+    'Shift <Key>Insert: insert-selection(CLIPBOARD)" '
+    '-T PC4 &'
+)
 
-    info('*** Closing xterms\n')
-    for h in (PC1, PC2, PC3, PC4):
-        h.cmd('killall xterm')
-
-    info('*** Stopping network\n')
+    info( '*** Running the command line interface\n' )
+    CLI( net )
+	
+    info( '*** Closing the terminals on the hosts\n' )
+    PC1.cmd("killall xterm")
+    PC2.cmd("killall xterm")
+    PC3.cmd("killall xterm")
+    PC4.cmd("killall xterm")
+	
+    info( '*** Stopping network' )
     net.stop()
 
+"main Function: This is called when the Python file is run"
 if __name__ == '__main__':
-    setLogLevel('info')
-    build_net()
+    setLogLevel( 'info' )
+    firstNetwork()
