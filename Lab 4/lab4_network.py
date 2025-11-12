@@ -16,8 +16,8 @@ def Lab4_Network():
     os.system('mn -c')
     os.system('kill $(ps -aux | pgrep zebra)')
     os.system('kill $(ps -aux | pgrep ospfd)')
-    os.system('rm /home/lca2/Desktop/lab4/run/*')
-    os.system('rm /home/lca2/Desktop/lab4/logs/*')
+    os.system('rm /home/advnet/Desktop/lab4/run/*')
+    os.system('rm /home/advnet/Desktop/lab4/logs/*')
 
     "Create an empty network and add nodes to it."
     net = Mininet()
@@ -139,7 +139,7 @@ def Lab4_Network():
 
 
 
-    os.system("chown lca2 /home/lca2/Desktop/lab4/logs/*")
+    os.system("chown advnet /home/advnet/Desktop/lab4/logs/*")
     info( '*** Running the command line interface\n' )
     CLI( net )
     
