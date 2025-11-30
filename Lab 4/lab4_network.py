@@ -84,6 +84,14 @@ def Lab4_Network():
 
     info( '*** Starting network\n')
     net.start()
+    "Activate the zebra daemon in the routers"
+    for idx, router in enumerate(routers, start=1):
+    router.cmd(f"/usr/lib/frr/zebra -d "
+               f"-f /home/advnet/Desktop/lab4/configs/zebra_r{idx}.cfg "
+               f"-i /home/advnet/Desktop/lab4/run/zebra_r{idx}.pid "
+               f"-z /home/advnet/Desktop/lab4/run/frr_r{idx}.api "
+               f"-u frr -g frr")
+
     "This is used to run commands on the hosts and starting xterm on hosts"
 
     info( '*** Configuring hosts\n' )
