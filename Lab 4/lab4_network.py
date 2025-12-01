@@ -92,7 +92,7 @@ def Lab4_Network():
                f"-z /home/advnet/Desktop/lab4/run/frr_r{idx}.api "
                f"-u frr -g frr")
 
-    "run ospfd on all routers except r4"
+    "run ospfd and ospfd6 on all routers except r4"
     for router in routers:
         name = router.name  # "r1", "r2", ..., "r5"
         if name == "r4":
@@ -101,6 +101,13 @@ def Lab4_Network():
            f"/usr/lib/frr/ospfd -d "
            f"-f /home/advnet/Desktop/lab4/configs/ospfd_{name}.cfg "
            f"-i /home/advnet/Desktop/lab4/run/ospfd_{name}.pid "
+           f"-z /home/advnet/Desktop/lab4/run/frr_{name}.api "
+           f"-u frr -g frr" 
+        )
+        router.cmd(
+           f"/usr/lib/frr/ospf6d -d "
+           f"-f /home/advnet/Desktop/lab4/configs/ospf6d_{name}.cfg "
+           f"-i /home/advnet/Desktop/lab4/run/ospf6d_{name}.pid "
            f"-z /home/advnet/Desktop/lab4/run/frr_{name}.api "
            f"-u frr -g frr" 
         )
