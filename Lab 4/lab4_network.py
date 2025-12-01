@@ -92,6 +92,19 @@ def Lab4_Network():
                f"-z /home/advnet/Desktop/lab4/run/frr_r{idx}.api "
                f"-u frr -g frr")
 
+    "run ospfd on all routers except r4"
+    for router in routers:
+        name = router.name  # "r1", "r2", ..., "r5"
+        if name == "r4":
+            continue  # do NOT run ospfd on r4
+        router.cmd(
+           f"/usr/lib/frr/ospfd -d "
+           f"-f /home/advnet/Desktop/lab4/configs/ospfd_{name}.cfg "
+           f"-i /home/advnet/Desktop/lab4/run/ospfd_{name}.pid "
+           f"-z /home/advnet/Desktop/lab4/run/frr_{name}.api "
+           f"-u frr -g frr" 
+        )
+
     "This is used to run commands on the hosts and starting xterm on hosts"
 
     info( '*** Configuring hosts\n' )
