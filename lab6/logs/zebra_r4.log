@@ -1,0 +1,322 @@
+2025/12/23 13:02:07 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 192.24.24.0/24(254) 2 vrf: 0
+2025/12/23 13:02:07 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 192.34.34.0/24(254) 2 vrf: 0
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_HELLO:0:19] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_INTERFACE_ADD:0:10] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_BFD_CLIENT_REGISTER:0:14] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 3 packets from client: system
+2025/12/23 13:02:07 ZEBRA: [V98V0-MTWPF] client 15 says hello and bids fair to announce only bgp routes vrf=0
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_DUPLICATE_ADDR_DETECTION:0:30] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_HELLO:0:19] comes from socket [31]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_INTERFACE_ADD:0:10] comes from socket [31]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: system
+2025/12/23 13:02:07 ZEBRA: [V98V0-MTWPF] client 31 says hello and bids fair to announce only vnc routes vrf=0
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTER_ID_ADD:0:12] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_INTERFACE_ADD:0:10] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_REDISTRIBUTE_ADD:0:14] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:07 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_ADD to client bgp: type connected, vrf_id 0, p 192.24.24.0/24
+2025/12/23 13:02:07 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_ADD to client bgp: type connected, vrf_id 0, p 192.34.34.0/24
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_REDISTRIBUTE_ADD:0:14] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:07 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix fe80::/64(254) 2 vrf: 0
+2025/12/23 13:02:07 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix fe80::/64(254) 2 vrf: 0
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:21] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:07 ZEBRA: [V3DSZ-Y9H3W] Read 21 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:21] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 21 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:21] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 21 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_ADD to client bgp: type connected, vrf_id 0, p 2001:1:0:3434::/64
+2025/12/23 13:02:08 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 2001:1:0:3434::/64(254) 2 vrf: 0
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 21 packets from client: bgp
+2025/12/23 13:02:08 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_ADD to client bgp: type connected, vrf_id 0, p 2001:1:0:2424::/64
+2025/12/23 13:02:08 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 2001:1:0:2424::/64(254) 2 vrf: 0
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:08 ZEBRA: [V3DSZ-Y9H3W] Read 21 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 4 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.12.12.0/24, msg flags=0x7, flags=0x0
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.24.24.2, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.24.24.2 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.20.20.0/24, msg flags=0x7, flags=0x0
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.24.24.2, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.24.24.2 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.10.10.0/24, msg flags=0x7, flags=0x0
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.24.24.2, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.24.24.2 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.13.13.0/24, msg flags=0x7, flags=0x0
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.24.24.2, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.24.24.2 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.12.12.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.20.20.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.10.10.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.13.13.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 21 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.50.50.0/24, msg flags=0x7, flags=0x5
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.34.34.5, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.34.34.5 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.50.50.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:21] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.10.10.0/24, msg flags=0x7, flags=0x5
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.13.13.1, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.13.13.1 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.13.13.0/24, msg flags=0x7, flags=0x5
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.34.34.3, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.34.34.3 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.10.10.0/24(254) 0 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.10.10.0/24(254) 3 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.13.13.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:48] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)192.10.10.0/24, msg flags=0x7, flags=0x5
+2025/12/23 13:02:09 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=192.13.13.1, vrf_id=0
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=192.13.13.1 if 0, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.10.10.0/24(254) 2 vrf: 0
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:65] comes from socket [15]
+2025/12/23 13:02:09 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:09 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)2001:1:0:1313::/64, msg flags=0x7, flags=0x5
+2025/12/23 13:02:09 ZEBRA: [QTHVB-8XP01] nexthop_from_zapi: nh=fe80::145a:d8ff:fe96:a248, vrf_id=0, ifindex=3
+2025/12/23 13:02:09 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=fe80::145a:d8ff:fe96:a248 if 3, vrf_id=0 
+2025/12/23 13:02:09 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1313::/64(254) 2 vrf: 0
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:65] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:65] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:10 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)2001:1:0:1010::/64, msg flags=0x7, flags=0x5
+2025/12/23 13:02:10 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=2001:1:0:1313::1, vrf_id=0
+2025/12/23 13:02:10 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=2001:1:0:1313::1 if 0, vrf_id=0 
+2025/12/23 13:02:10 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)2001:1:0:1212::/64, msg flags=0x7, flags=0x5
+2025/12/23 13:02:10 ZEBRA: [GEYGN-QJH5D] nexthop_from_zapi: nh=2001:1:0:1313::1, vrf_id=0
+2025/12/23 13:02:10 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=2001:1:0:1313::1 if 0, vrf_id=0 
+2025/12/23 13:02:10 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1010::/64(254) 2 vrf: 0
+2025/12/23 13:02:10 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1212::/64(254) 2 vrf: 0
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:65] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:65] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:10 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)2001:1:0:1212::/64, msg flags=0x7, flags=0x0
+2025/12/23 13:02:10 ZEBRA: [QTHVB-8XP01] nexthop_from_zapi: nh=fe80::e817:7dff:fed4:8869, vrf_id=0, ifindex=2
+2025/12/23 13:02:10 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=fe80::e817:7dff:fed4:8869 if 2, vrf_id=0 
+2025/12/23 13:02:10 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)2001:1:0:2020::/64, msg flags=0x7, flags=0x0
+2025/12/23 13:02:10 ZEBRA: [QTHVB-8XP01] nexthop_from_zapi: nh=fe80::e817:7dff:fed4:8869, vrf_id=0, ifindex=2
+2025/12/23 13:02:10 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=fe80::e817:7dff:fed4:8869 if 2, vrf_id=0 
+2025/12/23 13:02:10 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1212::/64(254) 2 vrf: 0
+2025/12/23 13:02:10 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:2020::/64(254) 2 vrf: 0
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_REGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_CLIENT_CAPABILITIES:0:26] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:10 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_ADD:0:65] comes from socket [15]
+2025/12/23 13:02:10 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:10 ZEBRA: [HT241-2F7BY] zread_route_add: p=(0:0)2001:1:0:5050::/64, msg flags=0x7, flags=0x5
+2025/12/23 13:02:10 ZEBRA: [QTHVB-8XP01] nexthop_from_zapi: nh=fe80::3068:50ff:fece:c691, vrf_id=0, ifindex=3
+2025/12/23 13:02:10 ZEBRA: [NFFEX-16SYW] zapi_read_nexthops: nh=fe80::3068:50ff:fece:c691 if 3, vrf_id=0 
+2025/12/23 13:02:10 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:5050::/64(254) 2 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:27] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:27] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:32] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:32] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [V3DSZ-Y9H3W] Read 4 packets from client: bgp
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)192.20.20.0/24, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)192.10.10.0/24, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)2001:1:0:2020::/64, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)2001:1:0:1010::/64, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.20.20.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.10.10.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:2020::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1010::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:27] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:32] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_UNREGISTER:0:21] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:27] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [V3DSZ-Y9H3W] Read 4 packets from client: bgp
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_UNREGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:32] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [V3DSZ-Y9H3W] Read 2 packets from client: bgp
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)192.50.50.0/24, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)2001:1:0:5050::/64, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)192.12.12.0/24, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)2001:1:0:1212::/64, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.50.50.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:5050::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.12.12.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1212::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:27] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_ROUTE_DELETE:0:32] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)192.13.13.0/24, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [HT241-2F7BY] zread_route_del: p=(0:254)2001:1:0:1313::/64, msg flags=0x0, flags=0x0
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 192.24.24.0/24
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 192.24.24.0/24
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 2001:1:0:2424::/64
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 2001:1:0:2424::/64
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 192.24.24.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix fe80::/64(254) 2 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 2001:1:0:2424::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 192.13.13.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: bgp about prefix 2001:1:0:1313::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [YXG8K-BCYMV] zebra message[ZEBRA_NEXTHOP_UNREGISTER:0:33] comes from socket [15]
+2025/12/23 13:02:52 ZEBRA: [V3DSZ-Y9H3W] Read 1 packets from client: bgp
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 192.34.34.0/24
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 192.34.34.0/24
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 2001:1:0:3434::/64
+2025/12/23 13:02:52 ZEBRA: [WRHMV-SXPVZ] zsend_redistribute_route: ZEBRA_REDISTRIBUTE_ROUTE_DEL to client bgp: type connected, vrf_id 0, p 2001:1:0:3434::/64
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 192.34.34.0/24(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix fe80::/64(254) 3 vrf: 0
+2025/12/23 13:02:52 ZEBRA: [TQKA8-0276P] Not Notifying Owner: connected about prefix 2001:1:0:3434::/64(254) 3 vrf: 0

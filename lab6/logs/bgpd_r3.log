@@ -1,0 +1,387 @@
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth1 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth1 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [HTQD2-0R1WR][EC 33554451] bgp_process_packet: BGP OPEN receipt failed for peer: 2001:1:0:1313::1
+2025/12/23 13:02:08 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth1 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:08 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1313::/64
+2025/12/23 13:02:08 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1313::/64
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, metric 0, path 65100
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 28 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.13.13.1(r1) rcvd 192.10.10.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, metric 0, path 65100
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 28 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.13.13.1(r1) rcvd 192.12.12.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, metric 0, path 65100
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 28 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.13.13.1(r1) rcvd 192.13.13.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 0 alen 0
+2025/12/23 13:02:09 BGP: [G3V0W-FSWRC] bgp_best_path_select_defer: processing route for IPv4 Unicast : cnt 0
+2025/12/23 13:02:09 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.13.13.1 in vrf default
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.10.10.0/24
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.10.10.0/24
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.12.12.0/24
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.12.12.0/24
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, path 65100 65200
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 25 alen 8
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.13.13.1(r1) rcvd 192.20.20.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.13.13.1(r1) rcvd 192.24.24.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:09 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:09 BGP: [HTQD2-0R1WR][EC 33554451] bgp_process_packet: BGP OPEN receipt failed for peer: 2001:1:0:3434::5
+2025/12/23 13:02:09 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:09 BGP: [ZM2F8-MV4BJ][EC 33554509] Interface: r3-eth2 does not have a v6 LL address associated with it, waiting until one is created for it
+2025/12/23 13:02:09 BGP: [K9G3A-CJ5QQ] u1:s1 announcing routes upon coalesce timer expiry(1350 ms)
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, path 65100
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.10.10.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.12.12.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 56 (max message len: 65535) numpfx 2
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, metric 0, path 
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.13.13.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 55 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, metric 0, path 
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.34.34.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 55 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.20.20.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.20.20.0/24, selected=0x5d7d03787730
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.20.20.0/24
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.24.24.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.24.24.0/24, selected=0x5d7d03787980
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.24.24.0/24
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, path 65100 65200
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.20.20.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.24.24.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 60 (max message len: 65535) numpfx 2
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, path 65100 65345
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 25 alen 4
+2025/12/23 13:02:09 BGP: [RZMGQ-A03CG] 192.13.13.1(r1) rcvd UPDATE about 192.34.34.0/24 IPv4 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.34.34.5(r5) rcvd UPDATE w/ attr: nexthop 192.34.34.5, origin ?, localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.5(r5) rcvd UPDATE wlen 0 attrlen 29 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.5(r5) rcvd 192.34.34.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.34.34.5(r5) rcvd UPDATE w/ attr: nexthop 192.34.34.5, origin ?, localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.5(r5) rcvd UPDATE wlen 0 attrlen 29 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.5(r5) rcvd 192.50.50.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.5(r5) rcvd UPDATE wlen 0 attrlen 0 alen 0
+2025/12/23 13:02:09 BGP: [G3V0W-FSWRC] bgp_best_path_select_defer: processing route for IPv4 Unicast : cnt 0
+2025/12/23 13:02:09 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.34.34.5 in vrf default
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.50.50.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.50.50.0/24, selected=0x5d7d037885d0
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.50.50.0/24
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, localpref 100, path 
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.50.50.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 48 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, path 65100 65345
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 25 alen 4
+2025/12/23 13:02:09 BGP: [RZMGQ-A03CG] 192.13.13.1(r1) rcvd UPDATE about 192.50.50.0/24 IPv4 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:09 BGP: [K9G3A-CJ5QQ] u2:s2 announcing routes upon coalesce timer expiry(1350 ms)
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u2:s2 send UPDATE w/ attr: nexthop 192.13.13.1, origin ?, localpref 100, metric 0, path 65100
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u2:s2 send UPDATE 192.10.10.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u2:s2 send UPDATE 192.12.12.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u2:s2 send UPDATE len 66 (max message len: 65535) numpfx 2
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.5 send UPDATE w/ nexthop 192.13.13.1
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u2:s2 send UPDATE w/ attr: nexthop 0.0.0.0, localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u2:s2 send UPDATE 192.13.13.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u2:s2 send UPDATE len 56 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.5 send UPDATE w/ nexthop 192.34.34.3
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u2:s2 send UPDATE w/ attr: nexthop 192.13.13.1, origin ?, localpref 100, path 65100 65200
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u2:s2 send UPDATE 192.20.20.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u2:s2 send UPDATE 192.24.24.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u2:s2 send UPDATE len 63 (max message len: 65535) numpfx 2
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.5 send UPDATE w/ nexthop 192.13.13.1
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u2:s2 send UPDATE w/ attr: nexthop 0.0.0.0, localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u2:s2 send UPDATE 192.34.34.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u2:s2 send UPDATE len 56 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.5 send UPDATE w/ nexthop 192.34.34.3
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.4 send UPDATE w/ nexthop 192.13.13.1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.4 send UPDATE w/ nexthop 192.34.34.3
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.4 send UPDATE w/ nexthop 192.13.13.1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u2:s2 192.34.34.4 send UPDATE w/ nexthop 192.34.34.3
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.34.34.4(r4) rcvd UPDATE w/ attr: nexthop 192.24.24.2, origin ?, localpref 100, path 65200 65100
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 0 attrlen 32 alen 8
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.4(r4) rcvd 192.10.10.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.4(r4) rcvd 192.13.13.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.34.34.4(r4) rcvd UPDATE w/ attr: nexthop 192.24.24.2, origin ?, localpref 100, metric 0, path 65200
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 0 attrlen 35 alen 8
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.4(r4) rcvd 192.12.12.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.4(r4) rcvd 192.20.20.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.34.34.4(r4) rcvd UPDATE w/ attr: nexthop 192.34.34.4, origin ?, localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 0 attrlen 29 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.4(r4) rcvd 192.24.24.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 192.34.34.4(r4) rcvd UPDATE w/ attr: nexthop 192.34.34.4, origin ?, localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 0 attrlen 29 alen 4
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 192.34.34.4(r4) rcvd 192.34.34.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 0 attrlen 0 alen 0
+2025/12/23 13:02:09 BGP: [G3V0W-FSWRC] bgp_best_path_select_defer: processing route for IPv4 Unicast : cnt 0
+2025/12/23 13:02:09 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.34.34.4 in vrf default
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.20.20.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.20.20.0/24, selected=0x5d7d03a4e9d0
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.20.20.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.20.20.0/24, selected=0x5d7d03a4e9d0
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.24.24.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.24.24.0/24, selected=0x5d7d03a4ec10
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.24.24.0/24
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.24.24.0/24, selected=0x5d7d03a4ec10
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, localpref 100, path 65200
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.20.20.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 52 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, localpref 100, path 
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.24.24.0/24 IPv4 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 48 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:09 BGP: [WHJ94-YXNE1] u2:s2 send UPDATE 192.20.20.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:09 BGP: [WHJ94-YXNE1] u2:s2 send UPDATE 192.24.24.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:09 BGP: [G259R-NCBEJ] u2:s2 send UPDATE (withdraw) len 31 numpfx 2
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 8 attrlen 0 alen 0
+2025/12/23 13:02:09 BGP: [PAPP6-VDAWM] 192.34.34.4(r4) rcvd UPDATE about 192.10.10.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:09 BGP: [PAPP6-VDAWM] 192.34.34.4(r4) rcvd UPDATE about 192.13.13.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 2001:1:0:3434::4(r4) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:3434::4(fe80::d8b6:79ff:fe0c:bdd), localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 2001:1:0:3434::4(r4) rcvd UPDATE wlen 0 attrlen 72 alen 0
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 2001:1:0:3434::4(r4) rcvd 2001:1:0:2424::/64 IPv6 unicast
+2025/12/23 13:02:09 BGP: [T5AAP-5GA85] 2001:1:0:3434::4(r4) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:3434::4(fe80::d8b6:79ff:fe0c:bdd), localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 2001:1:0:3434::4(r4) rcvd UPDATE wlen 0 attrlen 72 alen 0
+2025/12/23 13:02:09 BGP: [YCKEM-GB33T] 2001:1:0:3434::4(r4) rcvd 2001:1:0:3434::/64 IPv6 unicast
+2025/12/23 13:02:09 BGP: [PCFFM-WMARW] 2001:1:0:3434::4(r4) rcvd UPDATE wlen 0 attrlen 6 alen 0
+2025/12/23 13:02:09 BGP: [G3V0W-FSWRC] bgp_best_path_select_defer: processing route for IPv6 Unicast : cnt 0
+2025/12/23 13:02:09 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv6 Unicast from 2001:1:0:3434::4 in vrf default
+2025/12/23 13:02:09 BGP: [K9G3A-CJ5QQ] u3:s3 announcing routes upon coalesce timer expiry(1350 ms)
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u3:s3 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, mp_nexthop ::(::), localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [H06SA-0JAPR] u3:s3 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u3:s3 send UPDATE 2001:1:0:1313::/64 IPv6 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u3:s3 send UPDATE len 95 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [JJ5V1-EZ0XX] u3:s3 2001:1:0:3434::5 send UPDATE w/ mp_nexthops 2001:1:0:3434::3, fe80::145a:d8ff:fe96:a248
+2025/12/23 13:02:09 BGP: [TN0HX-6G1RR] u3:s3 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, mp_nexthop ::(::), localpref 100, metric 0, path 
+2025/12/23 13:02:09 BGP: [H06SA-0JAPR] u3:s3 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:09 BGP: [HVRWP-5R9NQ] u3:s3 send UPDATE 2001:1:0:3434::/64 IPv6 unicast
+2025/12/23 13:02:09 BGP: [WEV7K-2GAQ5] u3:s3 send UPDATE len 95 (max message len: 65535) numpfx 1
+2025/12/23 13:02:09 BGP: [JJ5V1-EZ0XX] u3:s3 2001:1:0:3434::5 send UPDATE w/ mp_nexthops 2001:1:0:3434::3, fe80::145a:d8ff:fe96:a248
+2025/12/23 13:02:09 BGP: [JJ5V1-EZ0XX] u3:s3 2001:1:0:3434::4 send UPDATE w/ mp_nexthops 2001:1:0:3434::3, fe80::145a:d8ff:fe96:a248
+2025/12/23 13:02:09 BGP: [JJ5V1-EZ0XX] u3:s3 2001:1:0:3434::4 send UPDATE w/ mp_nexthops 2001:1:0:3434::3, fe80::145a:d8ff:fe96:a248
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2424::/64
+2025/12/23 13:02:09 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:2424::/64, selected=0x5d7d03a4e6c0
+2025/12/23 13:02:09 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2424::/64
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), metric 0, path 65100
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 71 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:1313::1(r1) rcvd 2001:1:0:1010::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), metric 0, path 65100
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 71 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:1313::1(r1) rcvd 2001:1:0:1212::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), metric 0, path 65100
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 71 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:1313::1(r1) rcvd 2001:1:0:1313::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 6 alen 0
+2025/12/23 13:02:10 BGP: [G3V0W-FSWRC] bgp_best_path_select_defer: processing route for IPv6 Unicast : cnt 0
+2025/12/23 13:02:10 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv6 Unicast from 2001:1:0:1313::1 in vrf default
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1010::/64
+2025/12/23 13:02:10 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1010::/64, selected=0x5d7d03a4f780
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1010::/64
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1212::/64
+2025/12/23 13:02:10 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1212::/64, selected=0x5d7d03a4fa60
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1212::/64
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u3:s3 send UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1, localpref 100, metric 0, path 65100
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u3:s3 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u3:s3 send UPDATE 2001:1:0:1010::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u3:s3 send UPDATE 2001:1:0:1212::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u3:s3 send UPDATE len 94 (max message len: 65535) numpfx 2
+2025/12/23 13:02:10 BGP: [NNG4V-WFG7M] u3:s3 2001:1:0:3434::5 send UPDATE w/ mp_nexthop 2001:1:0:1313::1
+2025/12/23 13:02:10 BGP: [NNG4V-WFG7M] u3:s3 2001:1:0:3434::4 send UPDATE w/ mp_nexthop 2001:1:0:1313::1
+2025/12/23 13:02:10 BGP: [K9G3A-CJ5QQ] u4:s4 announcing routes upon coalesce timer expiry(1350 ms)
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: , origin ?, mp_nexthop ::(::), path 65100
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:1010::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:1212::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 100 (max message len: 65535) numpfx 2
+2025/12/23 13:02:10 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, mp_nexthop ::(::), metric 0, path 
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:1313::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 94 (max message len: 65535) numpfx 1
+2025/12/23 13:02:10 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: , origin ?, mp_nexthop ::(::), localpref 100, path 
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:2424::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 87 (max message len: 65535) numpfx 1
+2025/12/23 13:02:10 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, mp_nexthop ::(::), metric 0, path 
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:3434::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 94 (max message len: 65535) numpfx 1
+2025/12/23 13:02:10 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), path 65100 65200
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 77 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:1313::1(r1) rcvd 2001:1:0:2424::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:1313::1(r1) rcvd 2001:1:0:2020::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), path 65100 65345
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 68 alen 0
+2025/12/23 13:02:10 BGP: [RZMGQ-A03CG] 2001:1:0:1313::1(r1) rcvd UPDATE about 2001:1:0:3434::/64 IPv6 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:3434::4(r4) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:2424::2, localpref 100, metric 0, path 65200
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:3434::4(r4) rcvd UPDATE wlen 0 attrlen 71 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:3434::4(r4) rcvd 2001:1:0:1212::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:3434::4(r4) rcvd 2001:1:0:2020::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WRW3W-ZY3JV] Route 2001:1:0:2020::/64 is in workqueue and being processed, not deferred.
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2020::/64
+2025/12/23 13:02:10 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:2020::/64, selected=0x5d7d03a50c70
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2020::/64
+2025/12/23 13:02:10 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:2020::/64, selected=0x5d7d03a50c70
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: , origin ?, mp_nexthop ::(::), localpref 100, path 65200
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:2020::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 91 (max message len: 65535) numpfx 1
+2025/12/23 13:02:10 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:3434::5(r5) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:3434::5(fe80::3068:50ff:fece:c691), localpref 100, metric 0, path 
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:3434::5(r5) rcvd UPDATE wlen 0 attrlen 72 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:3434::5(r5) rcvd 2001:1:0:3434::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:3434::5(r5) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:3434::5(fe80::3068:50ff:fece:c691), localpref 100, metric 0, path 
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:3434::5(r5) rcvd UPDATE wlen 0 attrlen 72 alen 0
+2025/12/23 13:02:10 BGP: [YCKEM-GB33T] 2001:1:0:3434::5(r5) rcvd 2001:1:0:5050::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:3434::5(r5) rcvd UPDATE wlen 0 attrlen 6 alen 0
+2025/12/23 13:02:10 BGP: [G3V0W-FSWRC] bgp_best_path_select_defer: processing route for IPv6 Unicast : cnt 0
+2025/12/23 13:02:10 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv6 Unicast from 2001:1:0:3434::5 in vrf default
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:5050::/64
+2025/12/23 13:02:10 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:5050::/64, selected=0x5d7d03a51380
+2025/12/23 13:02:10 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:5050::/64
+2025/12/23 13:02:10 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:5050::/64, selected=0x5d7d03a51380
+2025/12/23 13:02:10 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: , origin ?, mp_nexthop ::(::), localpref 100, path 
+2025/12/23 13:02:10 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:10 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:5050::/64 IPv6 unicast
+2025/12/23 13:02:10 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 87 (max message len: 65535) numpfx 1
+2025/12/23 13:02:10 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:10 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), path 65100 65345
+2025/12/23 13:02:10 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 68 alen 0
+2025/12/23 13:02:10 BGP: [RZMGQ-A03CG] 2001:1:0:1313::1(r1) rcvd UPDATE about 2001:1:0:5050::/64 IPv6 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 4 attrlen 0 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 192.13.13.1(r1) rcvd UPDATE about 192.10.10.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 16 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 2001:1:0:1313::1(r1) rcvd UPDATE about 2001:1:0:1010::/64 IPv6 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.10.10.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.10.10.0/24, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.10.10.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.10.10.0/24, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1010::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1010::/64, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1010::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1010::/64, selected=0x0
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u1:s1 send UPDATE 192.10.10.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u1:s1 send UPDATE (withdraw) len 27 numpfx 1
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u2:s2 send UPDATE 192.10.10.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u2:s2 send UPDATE (withdraw) len 27 numpfx 1
+2025/12/23 13:02:52 BGP: [QYC2K-N0CET] u3:s3 send MP_UNREACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u3:s3 send UPDATE 2001:1:0:1010::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u3:s3 send UPDATE (withdraw) len 39 numpfx 1
+2025/12/23 13:02:52 BGP: [QYC2K-N0CET] u4:s4 send MP_UNREACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u4:s4 send UPDATE 2001:1:0:1010::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u4:s4 send UPDATE (withdraw) len 39 numpfx 1
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 4 attrlen 0 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 192.13.13.1(r1) rcvd UPDATE about 192.12.12.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, path 65100 65345 65200
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 29 alen 4
+2025/12/23 13:02:52 BGP: [RZMGQ-A03CG] 192.13.13.1(r1) rcvd UPDATE about 192.20.20.0/24 IPv4 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:52 BGP: [T5AAP-5GA85] 192.13.13.1(r1) rcvd UPDATE w/ attr: nexthop 192.13.13.1, origin ?, path 65100 65345
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.13.13.1(r1) rcvd UPDATE wlen 0 attrlen 25 alen 4
+2025/12/23 13:02:52 BGP: [RZMGQ-A03CG] 192.13.13.1(r1) rcvd UPDATE about 192.24.24.0/24 IPv4 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 4 attrlen 0 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 192.34.34.4(r4) rcvd UPDATE about 192.20.20.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 16 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 2001:1:0:1313::1(r1) rcvd UPDATE about 2001:1:0:1212::/64 IPv6 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), path 65100 65345 65200
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 72 alen 0
+2025/12/23 13:02:52 BGP: [RZMGQ-A03CG] 2001:1:0:1313::1(r1) rcvd UPDATE about 2001:1:0:2020::/64 IPv6 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:52 BGP: [T5AAP-5GA85] 2001:1:0:1313::1(r1) rcvd UPDATE w/ attr: , origin ?, mp_nexthop 2001:1:0:1313::1(fe80::a824:70ff:fe53:919e), path 65100 65345
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:1313::1(r1) rcvd UPDATE wlen 0 attrlen 68 alen 0
+2025/12/23 13:02:52 BGP: [RZMGQ-A03CG] 2001:1:0:1313::1(r1) rcvd UPDATE about 2001:1:0:2424::/64 IPv6 unicast -- DENIED due to: as-path contains our own AS;
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:3434::4(r4) rcvd UPDATE wlen 0 attrlen 16 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 2001:1:0:3434::4(r4) rcvd UPDATE about 2001:1:0:2020::/64 IPv6 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.34.34.5(r5) rcvd UPDATE wlen 4 attrlen 0 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 192.34.34.5(r5) rcvd UPDATE about 192.50.50.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:3434::5(r5) rcvd UPDATE wlen 0 attrlen 16 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 2001:1:0:3434::5(r5) rcvd UPDATE about 2001:1:0:5050::/64 IPv6 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.12.12.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.12.12.0/24, selected=0x5d7d03a4e950
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.12.12.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.12.12.0/24, selected=0x5d7d03a4e950
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.20.20.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.20.20.0/24, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.20.20.0/24
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1212::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1212::/64, selected=0x5d7d03a50b30
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1212::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1212::/64, selected=0x5d7d03a50b30
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2020::/64
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2020::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:2020::/64, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.50.50.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.50.50.0/24, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.50.50.0/24
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:5050::/64
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:5050::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:5050::/64, selected=0x0
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u1:s1 send UPDATE 192.20.20.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u1:s1 send UPDATE 192.50.50.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u1:s1 send UPDATE (withdraw) len 31 numpfx 2
+2025/12/23 13:02:52 BGP: [TN0HX-6G1RR] u1:s1 send UPDATE w/ attr: nexthop 0.0.0.0, origin ?, localpref 100, path 65200
+2025/12/23 13:02:52 BGP: [HVRWP-5R9NQ] u1:s1 send UPDATE 192.12.12.0/24 IPv4 unicast
+2025/12/23 13:02:52 BGP: [WEV7K-2GAQ5] u1:s1 send UPDATE len 52 (max message len: 65535) numpfx 1
+2025/12/23 13:02:52 BGP: [MBFVT-8GSC6] u1:s1 192.13.13.1 send UPDATE w/ nexthop 192.13.13.3
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u2:s2 send UPDATE 192.12.12.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u2:s2 send UPDATE (withdraw) len 27 numpfx 1
+2025/12/23 13:02:52 BGP: [QYC2K-N0CET] u3:s3 send MP_UNREACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u3:s3 send UPDATE 2001:1:0:1212::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u3:s3 send UPDATE (withdraw) len 39 numpfx 1
+2025/12/23 13:02:52 BGP: [QYC2K-N0CET] u4:s4 send MP_UNREACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u4:s4 send UPDATE 2001:1:0:2020::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u4:s4 send UPDATE 2001:1:0:5050::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u4:s4 send UPDATE (withdraw) len 48 numpfx 2
+2025/12/23 13:02:52 BGP: [TN0HX-6G1RR] u4:s4 send UPDATE w/ attr: , origin ?, mp_nexthop ::(::), localpref 100, path 65200
+2025/12/23 13:02:52 BGP: [H06SA-0JAPR] u4:s4 send MP_REACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [HVRWP-5R9NQ] u4:s4 send UPDATE 2001:1:0:1212::/64 IPv6 unicast
+2025/12/23 13:02:52 BGP: [WEV7K-2GAQ5] u4:s4 send UPDATE len 91 (max message len: 65535) numpfx 1
+2025/12/23 13:02:52 BGP: [JJ5V1-EZ0XX] u4:s4 2001:1:0:1313::1 send UPDATE w/ mp_nexthops 2001:1:0:1313::3, fe80::88f2:b3ff:febd:d1d4
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 192.34.34.4(r4) rcvd UPDATE wlen 4 attrlen 0 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 192.34.34.4(r4) rcvd UPDATE about 192.12.12.0/24 IPv4 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [PCFFM-WMARW] 2001:1:0:3434::4(r4) rcvd UPDATE wlen 0 attrlen 16 alen 0
+2025/12/23 13:02:52 BGP: [PAPP6-VDAWM] 2001:1:0:3434::4(r4) rcvd UPDATE about 2001:1:0:1212::/64 IPv6 unicast -- withdrawn
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 192.13.13.1
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 192.34.34.4
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 192.34.34.5
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 2001:1:0:1313::1
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 2001:1:0:3434::4
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 2001:1:0:3434::5
+2025/12/23 13:02:52 BGP: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF r3-eth1 in VRF 0
+2025/12/23 13:02:52 BGP: [WRW3W-ZY3JV] Route 192.13.13.0/24 is in workqueue and being processed, not deferred.
+2025/12/23 13:02:52 BGP: [WRW3W-ZY3JV] Route 2001:1:0:1313::/64 is in workqueue and being processed, not deferred.
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.12.12.0/24
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1212::/64
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.13.13.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.13.13.0/24, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:1313::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:1313::/64, selected=0x0
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u2:s2 send UPDATE 192.13.13.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u2:s2 send UPDATE (withdraw) len 27 numpfx 1
+2025/12/23 13:02:52 BGP: [QYC2K-N0CET] u3:s3 send MP_UNREACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u3:s3 send UPDATE 2001:1:0:1313::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u3:s3 send UPDATE (withdraw) len 39 numpfx 1
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 192.34.34.4
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 192.34.34.5
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 2001:1:0:3434::4
+2025/12/23 13:02:52 BGP: [W83ZB-XCJWG] Processing EVPN MAC interface change on peer 2001:1:0:3434::5
+2025/12/23 13:02:52 BGP: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF r3-eth2 in VRF 0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.34.34.0/24
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=192.34.34.0/24, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv4, safi=unicast, p=192.24.24.0/24
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:3434::/64
+2025/12/23 13:02:52 BGP: [T5JFA-13199] subgroup_process_announce_selected: p=2001:1:0:3434::/64, selected=0x0
+2025/12/23 13:02:52 BGP: [K423X-ETGCQ] group_announce_route_walkcb: afi=IPv6, safi=unicast, p=2001:1:0:2424::/64
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u2:s2 send UPDATE 192.34.34.0/24 IPv4 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u2:s2 send UPDATE (withdraw) len 27 numpfx 1
+2025/12/23 13:02:52 BGP: [QYC2K-N0CET] u3:s3 send MP_UNREACH for afi/safi IPv6/unicast
+2025/12/23 13:02:52 BGP: [WHJ94-YXNE1] u3:s3 send UPDATE 2001:1:0:3434::/64 IPv6 unicast -- unreachable
+2025/12/23 13:02:52 BGP: [G259R-NCBEJ] u3:s3 send UPDATE (withdraw) len 39 numpfx 1
+2025/12/23 13:02:52 BGP: [WJC21-WPGZF] u3:s3 announcing routes to 2001:1:0:3434::4, combined into 2 peers
